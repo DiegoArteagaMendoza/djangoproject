@@ -1,0 +1,16 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+
+<h1>Empleados</h1>
+
+{% for employee in employees %}
+
+    <article class="card">
+        <h2>{{employee.name}} {{employee.last_name}}</h2>
+        <p>Cargo: {{employee.position}} <br> Sueldo: ${{employee.salary}}</p>
+    </article>
+
+{% endfor %}
+
+{% endblock %}

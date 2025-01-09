@@ -1,0 +1,1 @@
+# indica a django que esta carpeta es un modulo de python

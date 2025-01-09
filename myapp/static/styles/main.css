@@ -1,0 +1,57 @@
+body{
+    background: #202020;
+    color: #eee;
+}
+
+.navbar {
+    background: #eee;
+    padding: 5px 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: #202020;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: red;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.card {
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 2px;
+    color: #202020;
+}
+
+.card a {
+    text-decoration: none;
+    color:#202020;
+}
+
+.card:hover {
+    text-decoration: none;
+    color:red;
+}
+
+.input {
+    background: wheat;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
